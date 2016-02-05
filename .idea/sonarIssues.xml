@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-server/src/test/resources/murex/imdb/server/features/sql/BooleanSelects.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-server/src/test/resources/murex/imdb/server/features/sql/IncrementalReduce.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-server/src/test/resources/murex/imdb/server/features/sql/Reduce.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-server/src/test/resources/murex/imdb/server/features/sql/SimpleSelect.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/FluentReduceTable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/FullReducer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/IncrementalReduce.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/IncrementalReduceOperation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/ReduceBucketMerge.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/ReduceFunctions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/aggregator/impl/BaseReducer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/aggregator/impl/Count.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/aggregator/impl/NullableReduceFunction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/aggregator/impl/ReduceFunction.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/cache/operators/reduce/aggregator/impl/Sum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/query/ast/nodes/OutputNameResolver.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/query/ast/transformation/transformers/Transformers.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/query/formal/nodes/FormalColumnDefinitionsCollector.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/main/java/murex/imdb/shared/query/formal/nodes/FormalSelect.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/test/java/murex/imdb/shared/cache/operators/reduce/IncrementalReduceFunctionsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/test/java/murex/imdb/shared/cache/operators/reduce/NullableReduceFunctionTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/imdb-shared/src/test/java/murex/imdb/shared/query/ast/nodes/OutputNameResolverTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/integration-tests/imdb-use-cases/src/test/java/murex/imdb/usecases/BaseQueriesIT.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/pop/src/java/imdb/integration-tests/imdb-use-cases/src/test/resources/failing_scenarios">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/res/layout/main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/res/layout/meeting_cards_group.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/res/values/arrays.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/res/values/strings.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/Activity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/ActivityGroup.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/CardActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/CardGroup.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/Meeting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/MeetingCardsGroups.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/MeetingGroup.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/activity/Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/activity/MeetingCardsGroups.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/entities/CardGroup.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/entities/Meeting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/entity/CardGroup.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/murex/pop/cards/entity/Meeting.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
