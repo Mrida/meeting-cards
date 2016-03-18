@@ -1,10 +1,14 @@
 package murex.pop.cards.activity;
 
+import static android.graphics.Color.parseColor;
 import static murex.pop.cards.Constants.MEETING_INDEX;
 import static murex.pop.cards.Constants.meetings;
 
+import java.util.List;
+
 import murex.pop.cards.R;
 import murex.pop.cards.entity.CardGroup;
+import murex.pop.cards.entity.Choice;
 import murex.pop.cards.entity.Meeting;
 
 import android.app.Activity;
@@ -35,9 +39,9 @@ public class MeetingCardsGroups extends Activity {
 
       selectedLabels = new String[selectedMeeting.cardGroups().size()];
 
-      java.util.List<CardGroup> cardGroups = selectedMeeting.cardGroups();
+      List<CardGroup> cardGroups = selectedMeeting.cardGroups();
       for (int i = 0; i < cardGroups.size(); i++) {
-         linearLayout.addView(createCardGroupsView(cardGroups.get(i),i));
+         linearLayout.addView(createCardGroupsView(cardGroups.get(i), i));
       }
 
       linearLayout.addView(createVoteButton());
@@ -51,9 +55,10 @@ public class MeetingCardsGroups extends Activity {
          public void onClick(View view) {
             StringBuilder sb = new StringBuilder();
             for (String selectedLabel : selectedLabels) {
-               sb.append(selectedLabel+" ");
+               sb.append(selectedLabel + " ");
             }
-            Toast.makeText(MeetingCardsGroups.this,sb.toString(),Toast.LENGTH_SHORT).show();
+
+            Toast.makeText(MeetingCardsGroups.this, sb.toString(), Toast.LENGTH_SHORT).show();
          }
       });
       return back;
@@ -66,17 +71,20 @@ public class MeetingCardsGroups extends Activity {
 
       list.addHeaderView(createCardGroupHeader(cardGroup));
 
-      list.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, cardGroup.entries()) {
-                         @Override
-                         public View getView(int position, View convertView, ViewGroup parent) {
-                            View view = super.getView(position, convertView, parent);
-                            TextView text = (TextView) view.findViewById(android.R.id.text1);
-                            text.setTextColor(Color.WHITE);
-                            return view;
-                         }
+      list.setAdapter(new ArrayAdapter<Choice>(this, android.R.layout.simple_list_item_1, cardGroup.entries()) {
+         @Override
+         public View getView(int position, View convertView, ViewGroup parent) {
+            View view = super.getView(position, convertView, parent);
+            final Choice choice = cardGroup.entries().get(position);
+            view.setBackgroundColor(parseColor(choice.color()));
+            TextView text = (TextView) view.findViewById(android.R.id.text1);
+            text.setText(choice.value());
+            return view;
+         }
+
       });
 
-      list.setOnItemClickListener(new AdapterView.OnItemClickListener(){
+      list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
          View previouslySelectedItem = null;
 
          public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -85,7 +93,7 @@ public class MeetingCardsGroups extends Activity {
             }
 
             view.setBackgroundColor(Color.LTGRAY);
-            //selectedLabels[cardGroupIndex] = list.getSelectedItem().toString();
+            selectedLabels[cardGroupIndex] = parent.getItemAtPosition(position).toString();
             previouslySelectedItem = view;
          }
       });

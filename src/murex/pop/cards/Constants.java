@@ -17,13 +17,13 @@ public final class Constants {
          final CardGroup group1 = new CardGroup(group1Desc);
          final CardGroup group2 = new CardGroup(group2Desc);
 
-         group1.addEntry("SAD - " + group1Desc);
-         group1.addEntry("MAD - " + group1Desc);
-         group1.addEntry("GLAD - " + group1Desc);
+         group1.addEntry("SAD - " + group1Desc, "red");
+         group1.addEntry("MAD - " + group1Desc, "yellow");
+         group1.addEntry("GLAD - " + group1Desc, "green");
 
-         group2.addEntry("1 - " + group2Desc);
-         group2.addEntry("2 - " + group2Desc);
-         group2.addEntry("3 - " + group2Desc);
+         group2.addEntry("1 - " + group2Desc, "red");
+         group2.addEntry("2 - " + group2Desc, "yellow");
+         group2.addEntry("3 - " + group2Desc, "green");
 
          meetings[i].addCardGroup(group1);
          meetings[i].addCardGroup(group2);

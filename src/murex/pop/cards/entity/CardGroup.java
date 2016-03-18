@@ -6,22 +6,23 @@ import java.util.List;
 public class CardGroup {
    private String name;
 
-   private List<String> entries;
+   public List<Choice> entries() {
+      return entries;
+   }
+
+   private List<Choice> entries;
 
    public CardGroup(String name) {
       this.name = name;
       entries = new ArrayList<>();
    }
 
-   public void addEntry(String image){
-      entries.add(image);
+   public void addEntry(String value, String color){
+      entries.add(new Choice(value, color));
    }
 
    public String name() {
       return name;
    }
 
-   public List<String> entries() {
-      return entries;
-   }
 }
