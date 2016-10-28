@@ -13,5 +13,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.MeetingCardsGroups"/>
+        <activity android:name=".activity.CardsDisplay"/>
     </application>
 </manifest>

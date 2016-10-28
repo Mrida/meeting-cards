@@ -12,15 +12,16 @@ import murex.pop.cards.entity.CardGroup;
 import murex.pop.cards.entity.Meeting;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.Toast;
 
 public class MeetingCardsGroups extends Activity {
 
    private String[] selectedLabels;
+   static final String PICKED_CARDS = "PICKED_CARDS";
 
    @Override
    public void onCreate(Bundle savedInstanceState) {
@@ -54,7 +55,9 @@ public class MeetingCardsGroups extends Activity {
       for (String selectedLabel : selectedLabels) {
          sb.append(selectedLabel + " ");
       }
+      Intent intent = new Intent(this, CardsDisplay.class);
 
-      Toast.makeText(this, sb.toString(), Toast.LENGTH_SHORT).show();
+      intent.putExtra(PICKED_CARDS, selectedLabels);
+      startActivity(intent);
    }
 }

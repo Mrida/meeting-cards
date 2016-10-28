@@ -56,7 +56,7 @@ public class SingleChoiceListView {
             }
             CheckedTextView text = (CheckedTextView) view.findViewById(android.R.id.text1);
             text.setChecked(true);
-            selectedLabels[cardGroupIndex] = parent.getItemAtPosition(position).toString();
+            selectedLabels[cardGroupIndex] = ((Choice)parent.getItemAtPosition(position)).value();
             previouslySelectedItem = text;
          }
       });
