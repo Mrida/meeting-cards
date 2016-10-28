@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 public class SingleChoiceListView {
 
-   static ListView getListView(final CardGroup cardGroup, final int cardGroupIndex, final Context context, final String[] selectedLabels) {
+   static ListView getListView(final CardGroup cardGroup, final int cardGroupIndex, final Context context, final Choice[] selectedChoices) {
 
       final ListView list = new ListView(context);
       list.setPadding(0, 10, 0, 0);
@@ -56,7 +56,7 @@ public class SingleChoiceListView {
             }
             CheckedTextView text = (CheckedTextView) view.findViewById(android.R.id.text1);
             text.setChecked(true);
-            selectedLabels[cardGroupIndex] = ((Choice)parent.getItemAtPosition(position)).value();
+            selectedChoices[cardGroupIndex] = (Choice)(parent.getItemAtPosition(position));
             previouslySelectedItem = text;
          }
       });

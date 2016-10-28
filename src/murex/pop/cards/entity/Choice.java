@@ -1,6 +1,8 @@
 package murex.pop.cards.entity;
 
-public class Choice {
+import java.io.Serializable;
+
+public class Choice implements Serializable {
    private String choiceValue;
    private String color;
 
